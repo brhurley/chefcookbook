@@ -6,14 +6,14 @@ default['java']['jdk']['8']['x86_64']['url'] = 'https://s3.amazonaws.com/ck-comm
 default['java']['oracle']['accept_oracle_download_terms'] = true
 
 
-default['tomcat-all']['user'] = 'root'
-default['tomcat-all']['group'] = 'root'
-default['tomcat-all']['install_directory'] = '/opt'
-default['tomcat-all']['version'] = '7.0.59'
-default['tomcat-all']['port'] = '80'
-default['tomcat-all']['java_opts'] - "-server -Djava.awt.headless=true -Xms1024m -Xmx4096m -XX:MaxPermSize=512m"
+# default['tomcat-all']['user'] = 'root'
+# default['tomcat-all']['group'] = 'root'
+# default['tomcat-all']['install_directory'] = '/opt'
+# default['tomcat-all']['version'] = '7.0.59'
+# default['tomcat-all']['port'] = '80'
+# default['tomcat-all']['java_opts'] - "-server -Djava.awt.headless=true -Xms1024m -Xmx4096m -XX:MaxPermSize=512m"
 
 
-default['tomcat-app-war']['s3.path'] = 'https://s3.amazonaws.com/ck-common-data/artifacts/topicpages-config-1.0.3.war'
+default['tomcatwar']['s3.path'] = 'https://s3.amazonaws.com/ck-common-data/artifacts/topicpages-config-1.0.3.war'
 
 
